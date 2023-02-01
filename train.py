@@ -7,7 +7,8 @@ import numpy
 import pandas as pd
 from sklearn import preprocessing
 # %% Pre-Processing
-df = pd.read_csv('data/sample.csv') 
+file_name = "sample.csv"
+df = pd.read_csv(f"data/{file_name}") 
 
 le = preprocessing.LabelEncoder()
 le.fit(df['intent'])
