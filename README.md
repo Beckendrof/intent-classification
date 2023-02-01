@@ -1,5 +1,5 @@
 # DistilBERT Transformer model for Multi-class Classification
-For this project I have pre-trained a DistilBERT transofrmer model to perform intent classification. This model can be finetuned and retrained with your a custom dataset if required.
+For this project I have pre-trained a DistilBERT transofrmer model to perform intent classification. This model can be finetuned and retrained with a custom dataset if required.
 
 ## Prerequisities
 
