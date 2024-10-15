@@ -1,9 +1,9 @@
 # DistilBERT Transformer model for Multi-class Classification
-For this project I have pre-trained a DistilBERT transofrmer model to perform intent classification. This model can be finetuned and retrained with a custom dataset if required.
+For this project I have finetuned a DistilBERT transofrmer model to perform intent classification.
 
 ## Prerequisities
 
-The dataset used for pretraining comprises of 84 classes of general conversational responses. This dataset however can be discarded and a new dataset can be used in place. Just make sure to change the `file_name` variable in the `train.py` file to the name of your csv file. The dataset is in csv format and should contain two columns titled `text` and `intent`. 
+The dataset used for finetuning comprises of 84 classes of general conversational responses. This dataset however can be discarded and a new dataset can be used in place. Just make sure to change the `file_name` variable in the `train.py` file to the name of your csv file. The dataset is in csv format and should contain two columns titled `text` and `intent`. 
 
 Before running the `train.py` file make sure to clear all the files from the `models` folder.
 
